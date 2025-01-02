@@ -529,7 +529,7 @@ body {
 
 
     html {
-        font-size: .7rem;
+        font-size: 8px !important;
     }
 
     .profile-text {
@@ -544,12 +544,12 @@ body {
     }
 
     .text-container{
-        line-height: 2.7rem;
+        line-height: 2.2rem;
         text-align: start;
     }
 
     .text-container p{
-        font-size: 1.6rem;
+        font-size: 1.2rem !important;
     }
 
     .skill-container{
@@ -584,6 +584,22 @@ body {
     width: 85%;
     height: 15rem;
     border-radius: 15px;
+}
+
+@media (max-width : 383px) {
+    html {
+        font-size: 8px !important;
+    }
+
+    .text-container{
+        line-height: 1.8rem;
+        text-align: start;
+    }
+
+    .skill-container{
+        width: 100vw;
+        padding-right: 0rem !important;
+    }
 }
 
 /* keyframes */
