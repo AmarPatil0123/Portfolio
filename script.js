@@ -3,6 +3,7 @@ const navLinks = document.querySelector(".nav-links");
 const navItems = document.querySelectorAll(".nav-links li a");
 const checkInfos = document.querySelectorAll(".checkInfo"); // Use querySelectorAll
 const viewInfos = document.querySelectorAll(".view-info"); // Use querySelectorAll
+ 
 
 ham.addEventListener("click", () => {
     ham.classList.toggle("fa-xmark");

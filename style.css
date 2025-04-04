@@ -519,6 +519,12 @@ body {
         padding-left: 5rem;
     }
 
+    /* work-exp Section */
+
+    .work-exp {
+       height: 150px !important;
+    }
+
     /* contact info */
     .contact-container {
         width: 90%;
